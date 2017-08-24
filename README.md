@@ -6,4 +6,4 @@ The program uses Selenium, and geckodriver (FireFox) to automate the process. Ex
 ## To Make Changes to the Program
 The current program was made to work exclusively for the Dallas County Registrar of Voter's website, and xpaths in the program point to locations on that website. In addition, the program was designed to read a CSV file that has 7 columns. The verified status would be appended to the 8th column. The position of the seven patterns is important, as each row became a python list, with the index position indicating the column number. 
 
-Future users can modify the number of columns that are read by the program. If their content falls in different columns that mine, they can point to a different index position accordingly. Xpaths can also be changed easily.
+Future users can modify the number of columns that are read by the program. If their content falls in different columns than mine, they can point to a different index position accordingly. Xpaths can also be changed easily.
